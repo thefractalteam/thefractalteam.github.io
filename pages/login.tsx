@@ -9,7 +9,7 @@ import Script from 'next/script';
 
 
 
-
+const Login: NextPage = () => {
 
   return (
     <div className={styles.container}>

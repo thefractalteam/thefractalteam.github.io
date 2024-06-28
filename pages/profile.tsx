@@ -10,6 +10,7 @@ import ProfileHeader from "../pages/comps/profile/header";
 // Profile
 
 const Profile: NextPage = () => {
+  useEffect(() => {
   const isMobileDevice = () => {
   // Check if ignoremobile is set to true in localStorage
   const ignoreMobile = localStorage.getItem("ignoremobile") === "true";
