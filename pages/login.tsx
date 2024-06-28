@@ -86,7 +86,7 @@ const Login: NextPage = () => {
               />
             </label>
           </div>
-          {error && <p className="text-red-500">{error}</p>}
+         
           <button
             type="submit"
             className="btn btn-accent m-2"
