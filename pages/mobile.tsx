@@ -37,7 +37,7 @@ const MobileBlock: NextPage = () => {
           <Link href="#"
             onClick={() => {
               localStorage.setItem("ignoremobile", "true");
-              window.location.href = "/";
+              window.location.href = "/nine/";
             }}
             style={{
               color: "#00BF8F",
