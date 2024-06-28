@@ -4,6 +4,9 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from &apos;../styles/Home.module.css&apos;;
 import Navbar from &apos;../pages/comps/nav&apos;;
+import Link from 'next/link';
+import Script from 'next/script';
+
 
 const Login = () => {
   const [username, setUsername] = useState(&apos;&apos;);

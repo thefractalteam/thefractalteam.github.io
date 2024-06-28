@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Link from 'next/link';
+import Script from 'next/script';
 
 const Navbar = ({ username, profilePicture }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -13,12 +15,12 @@ const Navbar = ({ username, profilePicture }) => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl font-black">Nine</a>
+        <Link className="btn btn-ghost text-xl font-black">Nine</Link>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1 gap-2">
           <li>
-            <a href="/" className="font-bold">
+            <Link href="/" className="font-bold">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -34,7 +36,7 @@ const Navbar = ({ username, profilePicture }) => {
                 />
               </svg>
               Home
-            </a>
+            </Link>
           </li>
           <li>
             {!isLoggedIn ? (
@@ -57,7 +59,7 @@ const Navbar = ({ username, profilePicture }) => {
                 </summary>
                 <ul className="p-2 bg-base-100 rounded-t-none">
                   <li>
-                    <a href="/profile" className="font-bold">
+                    <Link href="/profile" className="font-bold">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -73,10 +75,10 @@ const Navbar = ({ username, profilePicture }) => {
                         />
                       </svg>
                       Profile
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="font-bold">
+                    <Link className="font-bold">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -92,10 +94,10 @@ const Navbar = ({ username, profilePicture }) => {
                         />
                       </svg>
                       Create
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="font-bold">
+                    <Link className="font-bold">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -111,7 +113,7 @@ const Navbar = ({ username, profilePicture }) => {
                         />
                       </svg>
                       Preferences
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </details>

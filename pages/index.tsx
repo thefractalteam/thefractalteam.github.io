@@ -3,6 +3,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import React, { useEffect } from "react";
 import Navbar from "../pages/comps/nav";
+import Link from 'next/link';
+import Script from 'next/script';
+
 // Home
 
 const Home: NextPage = () => {
