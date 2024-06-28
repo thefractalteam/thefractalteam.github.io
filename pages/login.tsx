@@ -41,7 +41,7 @@ import Script from 'next/script';
           don&apos;t have an account yet?{' '}
           <Link
             href="/signup"
-            style={{ color: &apos;#00BF8F&apos;, textDecoration: &apos;underline&apos; }}
+            style={{ color: "#00BF8F", textDecoration: "underline" }}
           >
             sign up!
           </Link>
@@ -92,7 +92,7 @@ import Script from 'next/script';
           <button
             type="submit"
             className="btn btn-accent m-2"
-            style={{ backgroundColor: &apos;#00BF8F&apos; }}
+            style={{ backgroundColor: "#00BF8F" }}
           >
             Log in
           </button>
