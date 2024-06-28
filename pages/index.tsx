@@ -60,7 +60,7 @@ const Home: NextPage = () => {
         />
         <div
           className="tooltip tooltip-right font-bold"
-          data-tip=&apos;the two emojis displayed on Vine&apos;s now archived site. in the code, the hand is labeled as a "goodbye wave", but we see it a different way. &apos;
+          data-tip="the two emojis displayed on Vine&apos;s now archived site. in the code, the hand is labeled as a &apos;goodbye wave&apos;, but we see it a different way."
         >
           <span className="text-6xl font-black m-2 flex items-center">
             <span className="inline-block">&quot;</span>

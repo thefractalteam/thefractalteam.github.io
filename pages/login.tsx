@@ -1,9 +1,9 @@
-import { useState } from &apos;react&apos;;
-import axios from &apos;axios&apos;;
+import { useState } from "react";
+import axios from "axios";
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from &apos;../styles/Home.module.css&apos;;
-import Navbar from &apos;../pages/comps/nav&apos;;
+import styles from "../styles/Home.module.css";
+import Navbar from "../pages/comps/nav";
 import Link from 'next/link';
 import Script from 'next/script';
 
