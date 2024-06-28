@@ -9,24 +9,23 @@ import Script from 'next/script';
 
 
 const Login = () => {
-  const [username, setUsername] = useState(&apos;&apos;);
-  const [password, setPassword] = useState(&apos;&apos;);
-  const [error, setError] = useState(&apos;&apos;);
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-
-      const response = await axios.post(&apos;https://nineteen.loca.lt/api/login&apos;, { username, password });
+      const response = await axios.post('https://nineteen.loca.lt/api/login', { username, password });
 
       console.log(response.data); 
     } catch (err) {
-
-      console.error(&apos;Login failed:&apos;, err.response.data);
-      setError(err.response.data.error || &apos;Login failed&apos;);
+      console.error('Login failed:', err.response ? err.response.data : err.message);
+      setError(err.response ? err.response.data.error || 'Login failed' : 'Login failed');
     }
   };
+
 
   return (
     <div className={styles.container}>
