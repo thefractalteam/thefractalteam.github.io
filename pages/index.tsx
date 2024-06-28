@@ -19,13 +19,14 @@ const Home: NextPage = () => {
         return false;
       }
 
-      // Otherwise, check if it&apos;s a mobile device
+      // Otherwise, check if it's a mobile device
       return (
         typeof window.orientation !== "undefined" ||
         navigator.userAgent.indexOf("IEMobile") !== -1
       );
     };
-    // Function to redirect to /mobile if it&apos;s a mobile device
+
+    // Function to redirect to /mobile if it's a mobile device
     const redirectIfMobile = () => {
       if (isMobileDevice()) {
         window.location.href = "/mobile";
