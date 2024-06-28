@@ -55,7 +55,7 @@ const Signup: NextPage = () => {
           rel="stylesheet"
         />
       </Head>
-  <Script src="https://cdn.tailwindcss.com"></Script>
+  <Script src="https://cdn.tailwindcss.com/latest.min.js" strategy="beforeInteractive" />
       <main>
         <Navbar
           username="ninedev"
