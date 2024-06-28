@@ -78,7 +78,7 @@ const Navbar = ({ username, profilePicture }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link className="font-bold">
+                    <Link href="/" className="font-bold">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -97,7 +97,7 @@ const Navbar = ({ username, profilePicture }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link className="font-bold">
+                    <Link href="/" className="font-bold">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
