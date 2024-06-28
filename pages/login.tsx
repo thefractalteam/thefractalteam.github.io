@@ -35,7 +35,7 @@ const Login = () => {
           rel="stylesheet"
           type="text/css"
         />
-        <script src="https://cdn.tailwindcss.com"></script>
+        <Script src="https://cdn.tailwindcss.com"></Script>
         <link
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
