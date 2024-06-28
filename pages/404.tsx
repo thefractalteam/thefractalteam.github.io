@@ -11,29 +11,34 @@ import Script from 'next/script';
 const Fourohfour: NextPage = () => {
   useEffect(() => {
     const isMobileDevice = () => {
-      // Check if ignoremobile is set to true in localStorage
-      const ignoreMobile = localStorage.getItem("ignoremobile") === "true";
+  // Check if ignoremobile is set to true in localStorage
+  const ignoreMobile = localStorage.getItem("ignoremobile") === "true";
 
-      // If ignoremobile is true, return false regardless of device type
-      if (ignoreMobile) {
-        return false;
-      }
+  // If ignoremobile is true, return false regardless of device type
+  if (ignoreMobile) {
+    return false;
+  }
 
-      // Otherwise, check if it&apos;s a mobile device
-      return (
-        typeof window.orientation !== "undefined" ||
-        navigator.userAgent.indexOf("IEMobile") !== -1
-      );
-    };
-    // Function to redirect to /mobile if it&apos;s a mobile device
-    const redirectIfMobile = () => {
-      if (isMobileDevice()) {
-        window.location.href = "/mobile";
-      }
-    };
+  // Otherwise, check if it's a mobile device
+  return (
+    typeof window !== "undefined" &&
+    (
+      typeof window.orientation !== "undefined" ||
+      navigator.userAgent.indexOf("IEMobile") !== -1
+    )
+  );
+};
 
-    // Call redirectIfMobile function when the component mounts
-    redirectIfMobile();
+// Function to redirect to /mobile if it's a mobile device
+const redirectIfMobile = () => {
+  if (isMobileDevice()) {
+    window.location.href = "/mobile";
+  }
+};
+
+// Call redirectIfMobile function when the component mounts
+redirectIfMobile();
+
   }, []); // Empty dependency array ensures this effect runs only once on component mount
 
   return (
