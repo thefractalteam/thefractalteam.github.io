@@ -34,7 +34,7 @@ const MobileBlock: NextPage = () => {
         <h3 className="text-2xl font-bold m-2">
           this site isn&apos;t built for mobile devices, so try out our app! If we&apos;re
           wrong, you can{" "}
-          <Link
+          <Link href="#"
             onClick={() => {
               localStorage.setItem("ignoremobile", "true");
               window.location.href = "/";
