@@ -61,7 +61,6 @@ const Login: NextPage = () => {
                 type="text"
                 className="grow"
                 placeholder="Username"
-                value={username}
                 required
               />
             </label>
@@ -83,7 +82,6 @@ const Login: NextPage = () => {
                 className="grow"
                 placeholder="Password"
                 maxLength="20"
-                value={password}
                 required
               />
             </label>
