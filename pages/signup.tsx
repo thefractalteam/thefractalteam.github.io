@@ -67,12 +67,12 @@ const Signup: NextPage = () => {
         <h2 className="text-4xl font-black m-2">new here?</h2>
         <h3 className="text-2xl font-bold m-2 mb-4">
           have an account?{" "}
-          <a
+          <Link
             href="/login"
             style={{ color: "#00BF8F", textDecoration: "underline" }}
           >
             log in!
-          </a>
+          </Link>
         </h3>
         <div className="w-80">
           <label className="m-2 input input-bordered flex items-center gap-2">

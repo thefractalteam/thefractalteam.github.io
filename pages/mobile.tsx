@@ -31,7 +31,7 @@ const MobileBlock: NextPage = () => {
         <h3 className="text-2xl font-bold m-2">
           this site isn&apos;t built for mobile devices, so try out our app! If we&apos;re
           wrong, you can{" "}
-          <a
+          <Link
             onClick={() => {
               localStorage.setItem("ignoremobile", "true");
               window.location.href = "/";
@@ -43,7 +43,7 @@ const MobileBlock: NextPage = () => {
             }}
           >
             use the site anyway.
-          </a>
+          </Link>
         </h3>
         <div className="join join-vertical m-2">
           <button className="btn btn-info join-item">App Store</button>

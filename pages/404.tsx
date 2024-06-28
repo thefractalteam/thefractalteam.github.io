@@ -62,9 +62,9 @@ const Fourohfour: NextPage = () => {
           </h2>
           <p>
             you can go{" "}
-            <a href="/" className="font-bold underline">
+            <Link href="/" className="font-bold underline">
               home
-            </a>{" "}
+            </Link>{" "}
             or try again later.
           </p>
         </div>
