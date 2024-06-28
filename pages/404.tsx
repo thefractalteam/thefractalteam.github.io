@@ -43,12 +43,13 @@ const Fourohfour: NextPage = () => {
           rel="stylesheet"
           type="text/css"
         />
-        <Script src="https://cdn.tailwindcss.com"></Script>
+       
         <link
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
         />
       </Head>
+       <Script src="https://cdn.tailwindcss.com"></Script>
       <br></br>
       <main>
         <div className="text-center align-center ">

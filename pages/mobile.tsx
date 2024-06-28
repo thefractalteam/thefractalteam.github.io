@@ -16,13 +16,13 @@ const MobileBlock: NextPage = () => {
           rel="stylesheet"
           type="text/css"
         />
-        <Script src="https://cdn.tailwindcss.com"></Script>
+       
         <link
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
         />
       </Head>
-
+ <Script src="https://cdn.tailwindcss.com"></Script>
       <main>
         <h2 className="text-4xl font-black m-2 mt-4">
           looks like you&apos;re on a{" "}
