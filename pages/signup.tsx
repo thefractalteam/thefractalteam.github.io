@@ -109,7 +109,7 @@ redirectIfMobile();
               type="password"
               className="grow"
               placeholder="password"
-              maxLength="20"
+              maxLength={20}
             />
           </label>
         </div>

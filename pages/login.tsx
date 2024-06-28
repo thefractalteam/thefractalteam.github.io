@@ -81,7 +81,7 @@ const Login: NextPage = () => {
                 type="password"
                 className="grow"
                 placeholder="Password"
-                maxLength="20"
+                maxLength={20}
                 required
               />
             </label>
@@ -97,7 +97,6 @@ const Login: NextPage = () => {
         </form>
         <dialog id="my_modal_1" className="modal">
           <div className="modal-box">
-            <h3 className="font-bold text-lg">Session Error</h3>
             <p className="py-4">
               Your session has expired or you have logged out from another
               window
