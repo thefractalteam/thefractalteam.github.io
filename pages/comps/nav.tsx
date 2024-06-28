@@ -15,7 +15,7 @@ const Navbar = ({ username, profilePicture }) => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <Link className="btn btn-ghost text-xl font-black">Nine</Link>
+        <Link href="/" className="btn btn-ghost text-xl font-black">Nine</Link>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1 gap-2">
