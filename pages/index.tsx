@@ -29,7 +29,7 @@ const isMobileDevice = () => {
 // Function to redirect to /mobile if it's a mobile device
 const redirectIfMobile = () => {
   if (isMobileDevice()) {
-    window.location.href = "/mobile";
+    window.location.href = "/nine/mobile";
   }
 };
 
