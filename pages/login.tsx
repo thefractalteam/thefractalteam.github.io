@@ -38,7 +38,7 @@ import Script from 'next/script';
 
         <h2 className="text-4xl font-black m-2">welcome back!</h2>
         <h3 className="text-2xl font-bold m-2 mb-4">
-          don&apos;t have an account yet?{&apos; &apos;}
+          don&apos;t have an account yet?{' '}
           <Link
             href="/signup"
             style={{ color: &apos;#00BF8F&apos;, textDecoration: &apos;underline&apos; }}
