@@ -1,13 +1,10 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import React, { useEffect } from "react";
-import Navbar from "../pages/comps/nav";
-import Link from 'next/link';
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import React, { useEffect } from 'react';
+import Navbar from '../pages/comps/nav';
 import Script from 'next/script';
-
-// Home
-
+import Link from 'next/link';
 const Home: NextPage = () => {
   useEffect(() => {
     const isMobileDevice = () => {
@@ -47,14 +44,12 @@ const Home: NextPage = () => {
           rel="stylesheet"
           type="text/css"
         />
-     
         <link
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
         />
+        <Script src="https://cdn.tailwindcss.com/latest.min.js" strategy="beforeInteractive" />
       </Head>
-<Script src="https://cdn.tailwindcss.com/latest.min.js" strategy="beforeInteractive" />
-
       <main>
         <Navbar
           username="ninedev"
@@ -80,8 +75,8 @@ const Home: NextPage = () => {
           </span>
         </div>
         <h2 className="text-4xl font-black m-2">
-          the emojis that said goodbye now wave{" "}
-          <span style={{ color: "#00BF8F" }}>hello.</span>
+          the emojis that said goodbye now wave{' '}
+          <span style={{ color: '#00BF8F' }}>hello.</span>
         </h2>
         <h3 className="text-2xl font-bold m-2">
           welcome to Nine! a full-fledged remake of Vine, since Elon won&apos;t get
@@ -99,7 +94,7 @@ const Home: NextPage = () => {
               <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
                 <button
-                  onClick={() => (window.location.href = "/login")}
+                  onClick={() => (window.location.href = '/login')}
                   className="btn"
                 >
                   back to login
