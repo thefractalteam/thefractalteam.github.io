@@ -8,23 +8,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 
-const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await axios.post('https://nineteen.loca.lt/api/login', { username, password });
-
-      console.log(response.data); 
-    } catch (err) {
-      console.error('Login failed:', err.response ? err.response.data : err.message);
-      setError(err.response ? err.response.data.error || 'Login failed' : 'Login failed');
-    }
-  };
 
 
   return (
@@ -62,7 +46,7 @@ const Login = () => {
             sign up!
           </Link>
         </h3>
-        <form onSubmit={handleSubmit}>
+        <form>
           <div className="w-80">
             <label className="m-2 input input-bordered flex items-center gap-2">
               <svg
@@ -78,7 +62,6 @@ const Login = () => {
                 className="grow"
                 placeholder="Username"
                 value={username}
-                onChange={(e) => setUsername(e.target.value)}
                 required
               />
             </label>
@@ -101,7 +84,6 @@ const Login = () => {
                 placeholder="Password"
                 maxLength="20"
                 value={password}
-                onChange={(e) => setPassword(e.target.value)}
                 required
               />
             </label>
