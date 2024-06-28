@@ -9,7 +9,7 @@ const MobileBlock: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Nine - You're on mobile</title>
+        <title>Nine - You&apos;re on mobile</title>
         <meta name="description" content="Do it for the Nine." />
         <link
           href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
@@ -25,11 +25,11 @@ const MobileBlock: NextPage = () => {
 
       <main>
         <h2 className="text-4xl font-black m-2 mt-4">
-          looks like you're on a{" "}
+          looks like you&apos;re on a{" "}
           <span style={{ color: "#00BF8F" }}>mobile device.</span>
         </h2>
         <h3 className="text-2xl font-bold m-2">
-          this site isn't built for mobile devices, so try out our app! If we're
+          this site isn&apos;t built for mobile devices, so try out our app! If we&apos;re
           wrong, you can{" "}
           <a
             onClick={() => {

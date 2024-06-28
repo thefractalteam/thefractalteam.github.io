@@ -16,13 +16,13 @@ const Fourohfour: NextPage = () => {
         return false;
       }
 
-      // Otherwise, check if it's a mobile device
+      // Otherwise, check if it&apos;s a mobile device
       return (
         typeof window.orientation !== "undefined" ||
         navigator.userAgent.indexOf("IEMobile") !== -1
       );
     };
-    // Function to redirect to /mobile if it's a mobile device
+    // Function to redirect to /mobile if it&apos;s a mobile device
     const redirectIfMobile = () => {
       if (isMobileDevice()) {
         window.location.href = "/mobile";
@@ -56,7 +56,7 @@ const Fourohfour: NextPage = () => {
             404!
             <span style={{ color: "#00BF8F" }}>
               {" "}
-              we couldn't find what you were looking for!
+              we couldn&apos;t find what you were looking for!
             </span>
           </h2>
           <p>

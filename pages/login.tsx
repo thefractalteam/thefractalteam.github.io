@@ -1,27 +1,27 @@
-import { useState } from 'react';
-import axios from 'axios';
+import { useState } from &apos;react&apos;;
+import axios from &apos;axios&apos;;
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from '../styles/Home.module.css';
-import Navbar from '../pages/comps/nav';
+import styles from &apos;../styles/Home.module.css&apos;;
+import Navbar from &apos;../pages/comps/nav&apos;;
 
 const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  const [username, setUsername] = useState(&apos;&apos;);
+  const [password, setPassword] = useState(&apos;&apos;);
+  const [error, setError] = useState(&apos;&apos;);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
 
-      const response = await axios.post('https://nineteen.loca.lt/api/login', { username, password });
+      const response = await axios.post(&apos;https://nineteen.loca.lt/api/login&apos;, { username, password });
 
       console.log(response.data); 
     } catch (err) {
 
-      console.error('Login failed:', err.response.data);
-      setError(err.response.data.error || 'Login failed');
+      console.error(&apos;Login failed:&apos;, err.response.data);
+      setError(err.response.data.error || &apos;Login failed&apos;);
     }
   };
 
@@ -45,17 +45,17 @@ const Login = () => {
       <main>
         <Navbar
           username="ninedev"
-          profilePicture="data:image/svg+xml,%3Csvg viewBox='0 0 36 36' fill='none' role='img' xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cmask id=':rmd:' maskUnits='userSpaceOnUse' x='0' y='0' width='36' height='36'%3E%3Crect width='36' height='36' fill='%23FFFFFF'%3E%3C/rect%3E%3C/mask%3E%3Cg mask='url(%23:rmd:)'%3E%3Crect width='36' height='36' fill='%23442432'%3E%3C/rect%3E%3Crect x='0' y='0' width='36' height='36' transform='translate(8 -4) rotate(198 18 18) scale(1)' fill='%23d95b45' rx='6'%3E%3C/rect%3E%3Cg transform='translate(4 -1) rotate(-8 18 18)'%3E%3Cpath d='M15 19c2 1 4 1 6 0' stroke='%23FFFFFF' fill='none' stroke-linecap='round'%3E%3C/path%3E%3Crect x='11' y='14' width='1.5' height='2' rx='1' stroke='none' fill='%23FFFFFF'%3E%3C/rect%3E%3Crect x='23' y='14' width='1.5' height='2' rx='1' stroke='none' fill='%23FFFFFF'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
+          profilePicture="data:image/svg+xml,%3Csvg viewBox=&apos;0 0 36 36&apos; fill=&apos;none&apos; role=&apos;img&apos; xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;128&apos; height=&apos;128&apos;%3E%3Cmask id=&apos;:rmd:&apos; maskUnits=&apos;userSpaceOnUse&apos; x=&apos;0&apos; y=&apos;0&apos; width=&apos;36&apos; height=&apos;36&apos;%3E%3Crect width=&apos;36&apos; height=&apos;36&apos; fill=&apos;%23FFFFFF&apos;%3E%3C/rect%3E%3C/mask%3E%3Cg mask=&apos;url(%23:rmd:)&apos;%3E%3Crect width=&apos;36&apos; height=&apos;36&apos; fill=&apos;%23442432&apos;%3E%3C/rect%3E%3Crect x=&apos;0&apos; y=&apos;0&apos; width=&apos;36&apos; height=&apos;36&apos; transform=&apos;translate(8 -4) rotate(198 18 18) scale(1)&apos; fill=&apos;%23d95b45&apos; rx=&apos;6&apos;%3E%3C/rect%3E%3Cg transform=&apos;translate(4 -1) rotate(-8 18 18)&apos;%3E%3Cpath d=&apos;M15 19c2 1 4 1 6 0&apos; stroke=&apos;%23FFFFFF&apos; fill=&apos;none&apos; stroke-linecap=&apos;round&apos;%3E%3C/path%3E%3Crect x=&apos;11&apos; y=&apos;14&apos; width=&apos;1.5&apos; height=&apos;2&apos; rx=&apos;1&apos; stroke=&apos;none&apos; fill=&apos;%23FFFFFF&apos;%3E%3C/rect%3E%3Crect x=&apos;23&apos; y=&apos;14&apos; width=&apos;1.5&apos; height=&apos;2&apos; rx=&apos;1&apos; stroke=&apos;none&apos; fill=&apos;%23FFFFFF&apos;%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
         />
 
         <span className="text-6xl font-black m-2 flex items-center"> login </span>
 
         <h2 className="text-4xl font-black m-2">welcome back!</h2>
         <h3 className="text-2xl font-bold m-2 mb-4">
-          don't have an account yet?{' '}
+          don&apos;t have an account yet?{&apos; &apos;}
           <a
             href="/signup"
-            style={{ color: '#00BF8F', textDecoration: 'underline' }}
+            style={{ color: &apos;#00BF8F&apos;, textDecoration: &apos;underline&apos; }}
           >
             sign up!
           </a>
@@ -108,7 +108,7 @@ const Login = () => {
           <button
             type="submit"
             className="btn btn-accent m-2"
-            style={{ backgroundColor: '#00BF8F' }}
+            style={{ backgroundColor: &apos;#00BF8F&apos; }}
           >
             Log in
           </button>
