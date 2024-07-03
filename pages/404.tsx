@@ -57,7 +57,7 @@ redirectIfMobile();
           rel="stylesheet"
         />
       </Head>
-    <Script src="https://cdn.tailwindcss.com/latest.min.js" strategy="beforeInteractive" />
+       <script src="https://cdn.tailwindcss.com/" async ></script>
       <br></br>
       <main>
         <div className="text-center align-center ">

@@ -54,7 +54,7 @@ redirectIfMobile();
         />
         
       </Head>
-      <Script src="https://cdn.tailwindcss.com/latest.min.js" strategy="beforeInteractive" />
+         <script src="https://cdn.tailwindcss.com/" async ></script>
       <main>
         <Navbar
           username="ninedev"
