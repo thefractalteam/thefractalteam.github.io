@@ -74,7 +74,7 @@ redirectIfMobile();
         <h3 className="text-2xl font-bold m-2 mb-4">
           have an account?{" "}
           <Link
-            href="/login"
+            href="/nine/login"
             style={{ color: "#00BF8F", textDecoration: "underline" }}
           >
             log in!

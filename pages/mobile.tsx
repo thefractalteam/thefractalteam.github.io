@@ -34,7 +34,7 @@ const MobileBlock: NextPage = () => {
         <h3 className="text-2xl font-bold m-2">
           this site isn&apos;t built for mobile devices, so try out our app! If we&apos;re
           wrong, you can{" "}
-          <Link href="#"
+          <Link href="/nine/#"
             onClick={() => {
               localStorage.setItem("ignoremobile", "true");
               window.location.href = "/nine/";
@@ -81,7 +81,7 @@ const MobileBlock: NextPage = () => {
               <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
                 <button
-                  onClick={() => (window.location.href = "/login")}
+                  onClick={() => (window.location.href = "/nine/login")}
                   className="btn"
                 >
                   back to login

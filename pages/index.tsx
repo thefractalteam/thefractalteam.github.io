@@ -99,7 +99,7 @@ redirectIfMobile();
               <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
                 <button
-                  onClick={() => (window.location.href = '/login')}
+                  onClick={() => (window.location.href = '/nine/login')}
                   className="btn"
                 >
                   back to login

@@ -32,7 +32,7 @@ const Fourohfour: NextPage = () => {
 // Function to redirect to /mobile if it's a mobile device
 const redirectIfMobile = () => {
   if (isMobileDevice()) {
-    window.location.href = "/mobile";
+    window.location.href = "/nine/mobile";
   }
 };
 
@@ -70,7 +70,7 @@ redirectIfMobile();
           </h2>
           <p>
             you can go{" "}
-            <Link href="/" className="font-bold underline">
+            <Link href="/nine" className="font-bold underline">
               home
             </Link>{" "}
             or try again later.

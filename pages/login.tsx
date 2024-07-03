@@ -40,7 +40,7 @@ const Login: NextPage = () => {
         <h3 className="text-2xl font-bold m-2 mb-4">
           don&apos;t have an account yet?{' '}
           <Link
-            href="/signup"
+            href="/nine/signup"
             style={{ color: "#00BF8F", textDecoration: "underline" }}
           >
             sign up!
