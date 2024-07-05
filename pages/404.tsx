@@ -70,7 +70,7 @@ redirectIfMobile();
           </h2>
           <p>
             you can go{" "}
-            <Link href="/nine" className="font-bold underline">
+            <Link href="/" className="font-bold underline">
               home
             </Link>{" "}
             or try again later.
