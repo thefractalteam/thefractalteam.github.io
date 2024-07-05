@@ -13,7 +13,7 @@ const Navbar = ({ username, profilePicture }) => {
   }, []);
 
   return (
-    <div className="navbar bg-base-200 drop-shadow-2xl rounded-3xl">
+    <div className="navbar bg-base-200 drop-shadow-2xl rounded-full mt-4">
       <div className="flex-1">
         <Link href="/nine" className="btn btn-ghost text-xl font-black">Nine</Link>
       </div>
@@ -41,8 +41,8 @@ const Navbar = ({ username, profilePicture }) => {
           <li>
             {!isLoggedIn ? (
               <button
-                className="btn btn-accent btn-sm h-full"
-                onClick={() => window.location.assign("/nine/login")}
+                className="btn btn-accent btn-sm h-full rounded-full"
+                onClick={() => window.location.assign("/login")}
                 style={{ backgroundColor: "#00BF8F" }}
               >
                 Login
