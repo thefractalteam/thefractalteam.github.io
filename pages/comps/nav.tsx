@@ -13,7 +13,7 @@ const Navbar = ({ username, profilePicture }) => {
   }, []);
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-200 drop-shadow-2xl">
       <div className="flex-1">
         <Link href="/nine" className="btn btn-ghost text-xl font-black">Nine</Link>
       </div>
