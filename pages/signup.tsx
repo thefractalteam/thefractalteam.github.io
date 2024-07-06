@@ -67,12 +67,12 @@ redirectIfMobile();
 
         <span className="text-6xl font-black m-2 flex items-center">
           {" "}
-          signup
+          sign up
         </span>
 
         <h2 className="text-4xl font-black m-2">new here?</h2>
         <h3 className="text-2xl font-bold m-2 mb-4">
-          have an account?{" "}
+          already part of the club?{" "}
           <Link
             href="/login"
             style={{ color: "#00BF8F", textDecoration: "underline" }}

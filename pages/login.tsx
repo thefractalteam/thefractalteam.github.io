@@ -34,11 +34,11 @@ const Login: NextPage = () => {
           profilePicture="data:image/svg+xml,%3Csvg viewBox=&apos;0 0 36 36&apos; fill=&apos;none&apos; role=&apos;img&apos; xmlns=&apos;http://www.w3.org/2000/svg&apos; width=&apos;128&apos; height=&apos;128&apos;%3E%3Cmask id=&apos;:rmd:&apos; maskUnits=&apos;userSpaceOnUse&apos; x=&apos;0&apos; y=&apos;0&apos; width=&apos;36&apos; height=&apos;36&apos;%3E%3Crect width=&apos;36&apos; height=&apos;36&apos; fill=&apos;%23FFFFFF&apos;%3E%3C/rect%3E%3C/mask%3E%3Cg mask=&apos;url(%23:rmd:)&apos;%3E%3Crect width=&apos;36&apos; height=&apos;36&apos; fill=&apos;%23442432&apos;%3E%3C/rect%3E%3Crect x=&apos;0&apos; y=&apos;0&apos; width=&apos;36&apos; height=&apos;36&apos; transform=&apos;translate(8 -4) rotate(198 18 18) scale(1)&apos; fill=&apos;%23d95b45&apos; rx=&apos;6&apos;%3E%3C/rect%3E%3Cg transform=&apos;translate(4 -1) rotate(-8 18 18)&apos;%3E%3Cpath d=&apos;M15 19c2 1 4 1 6 0&apos; stroke=&apos;%23FFFFFF&apos; fill=&apos;none&apos; stroke-linecap=&apos;round&apos;%3E%3C/path%3E%3Crect x=&apos;11&apos; y=&apos;14&apos; width=&apos;1.5&apos; height=&apos;2&apos; rx=&apos;1&apos; stroke=&apos;none&apos; fill=&apos;%23FFFFFF&apos;%3E%3C/rect%3E%3Crect x=&apos;23&apos; y=&apos;14&apos; width=&apos;1.5&apos; height=&apos;2&apos; rx=&apos;1&apos; stroke=&apos;none&apos; fill=&apos;%23FFFFFF&apos;%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
         />
 
-        <span className="text-6xl font-black m-2 flex items-center"> login </span>
+        <span className="text-6xl font-black m-2 flex items-center"> log in </span>
 
         <h2 className="text-4xl font-black m-2">welcome back!</h2>
         <h3 className="text-2xl font-bold m-2 mb-4">
-          don&apos;t have an account yet?{' '}
+          new here?{' '}
           <Link
             href="/signup"
             style={{ color: "#00BF8F", textDecoration: "underline" }}
@@ -60,7 +60,7 @@ const Login: NextPage = () => {
               <input
                 type="text"
                 className="grow"
-                placeholder="Username"
+                placeholder="username"
                 required
               />
             </label>
@@ -80,7 +80,7 @@ const Login: NextPage = () => {
               <input
                 type="password"
                 className="grow"
-                placeholder="Password"
+                placeholder="password"
                 maxLength={20}
                 required
               />
@@ -92,7 +92,7 @@ const Login: NextPage = () => {
             className="btn btn-accent m-2"
             style={{ backgroundColor: "#00BF8F" }}
           >
-            Log in
+            log in
           </button>
         </form>
         <dialog id="my_modal_1" className="modal">
