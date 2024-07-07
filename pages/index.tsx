@@ -55,14 +55,15 @@ redirectIfMobile();
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
         />
-        <style>main {
-  display: none;
-}
+        <style>{`
+          main {
+            display: none;
+          }
 
-main.loaded {
-  display: block;
-}
-</style>
+          main.loaded {
+            display: block;
+          }
+        `}</style>
       </Head>
          <script src="https://cdn.tailwindcss.com/" async onLoad="document.querySelector('main').classList.add('loaded')"></script>
       <main>
