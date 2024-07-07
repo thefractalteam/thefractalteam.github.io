@@ -6,6 +6,9 @@ import Navbar from '../pages/comps/nav';
 import Script from 'next/script';
 import Link from 'next/link';
 const Home: NextPage = () => {
+
+
+
   useEffect(() => {
 const isMobileDevice = () => {
   // Check if ignoremobile is set to true in localStorage
@@ -52,9 +55,16 @@ redirectIfMobile();
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
         />
-        
+        <style>main {
+  display: none;
+}
+
+main.loaded {
+  display: block;
+}
+</style>
       </Head>
-         <script src="https://cdn.tailwindcss.com/" async ></script>
+         <script src="https://cdn.tailwindcss.com/" async onLoad="document.querySelector('main').classList.add('loaded')"></script>
       <main>
         <Navbar
           username="ninedev"
