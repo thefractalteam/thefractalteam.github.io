@@ -100,8 +100,7 @@ const handleScriptLoad = () => {
           <span style={{ color: '#00BF8F' }}>hello.</span>
         </h2>
         <h3 className="text-2xl font-bold m-2">
-          welcome to Nine! a full-fledged remake of Vine, since Elon won&apos;t get
-          his happy ass to making it himself.
+          welcome to Nine! a full-fledged remake of Vine, dedicated to bringing back the original short form videos.
         </h3>
 
         <dialog id="my_modal_1" className="modal">
