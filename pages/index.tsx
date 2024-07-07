@@ -41,6 +41,10 @@ redirectIfMobile();
 
   }, []); // Empty dependency array ensures this effect runs only once on component mount
 
+const handleScriptLoad = () => {
+    document.querySelector('main').classList.add('loaded');
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -65,7 +69,7 @@ redirectIfMobile();
           }
         `}</style>
       </Head>
-         <script src="https://cdn.tailwindcss.com/" async onLoad="document.querySelector('main').classList.add('loaded')"></script>
+         <script src="https://cdn.tailwindcss.com/" async onLoad={handleScriptLoad}></script>
       <main>
         <Navbar
           username="ninedev"
