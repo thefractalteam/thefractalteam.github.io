@@ -69,7 +69,7 @@ const handleScriptLoad = () => {
           }
         `}</style>
       </Head>
-         <script src="https://cdn.tailwindcss.com/" async onLoad={handleScriptLoad}></script>
+         <Script src="https://cdn.tailwindcss.com/" async onLoad={handleScriptLoad}></Script>
       <main>
 	     
         <Navbar
