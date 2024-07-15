@@ -41,7 +41,7 @@ const handleScriptLoad = () => {
  
           <span className="text-6xl font-black m-2 flex items-center">
   
-            <span className="inline-block text-rose-600">fractal</span>
+            <span className="inline-block text-rose-600 font-black">fractal</span>
           </span>
 
         <h2 className="text-4xl font-black m-2">
