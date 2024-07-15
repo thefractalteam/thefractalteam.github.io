@@ -62,7 +62,7 @@ const handleScriptLoad = () => {
          
         </h2>
         <h3 className="text-2xl font-bold m-2">
-        check out our projects, Nine and Witty!
+        check out our projects, <Link href="/" className="font-bold text-rose-600 underline">Nine</Link> and <Link href="/" className="font-bold text-rose-600 underline">Witty</Link>!
         </h3>
 
         <dialog id="my_modal_1" className="modal">
