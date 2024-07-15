@@ -37,7 +37,7 @@ const handleScriptLoad = () => {
          <Script src="https://cdn.tailwindcss.com/" async onLoad={handleScriptLoad}></Script>
       <main>
 	     
-      <div role="alert" className="alert alert-warning">
+      <div role="alert" className="alert alert-warning mt-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-6 w-6 shrink-0 stroke-current"
