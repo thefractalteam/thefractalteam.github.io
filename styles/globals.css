@@ -120,7 +120,7 @@ a {
   box-sizing: border-box;
 }
 
-.text-4xl {
+.text-4xl, .text-6xl {
 font-weight: bold;
   font-style: italic;
 }
