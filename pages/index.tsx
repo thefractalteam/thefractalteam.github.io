@@ -37,10 +37,7 @@ const handleScriptLoad = () => {
          <Script src="https://cdn.tailwindcss.com/" async onLoad={handleScriptLoad}></Script>
       <main>
 	     
-        <Navbar
-          username=""
-          profilePicture=""
-        />
+      
  
           <span className="text-6xl font-black m-2 flex items-center">
   
