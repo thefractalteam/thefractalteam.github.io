@@ -62,29 +62,10 @@ const handleScriptLoad = () => {
          
         </h2>
         <h3 className="text-2xl font-bold m-2">
-        check out our projects, <Link href="/" className="font-bold text-rose-600 underline">Nine</Link> and <Link href="/" className="font-bold text-rose-600 underline">Witty</Link>!
+        check out our projects, <Link href="/nine" className="font-bold text-rose-600 underline">Nine</Link> and <Link href="https://wittynameforanorg.github.io/witty" className="font-bold text-rose-600 underline">Witty</Link>!
         </h3>
 
-        <dialog id="my_modal_1" className="modal">
-          <div className="modal-box">
-            <h3 className="font-bold text-lg">session error</h3>
-            <p className="py-4">
-              your session has expired or you have logged out from another
-              window
-            </p>
-            <div className="modal-action">
-              <form method="dialog">
-                {/* if there is a button in form, it will close the modal */}
-                <button
-                  onClick={() => (window.location.href = '/nine/login')}
-                  className="btn"
-                >
-                  back to login
-                </button>
-              </form>
-            </div>
-          </div>
-        </dialog>
+       
       </main>
     </div>
   );
