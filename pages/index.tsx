@@ -48,7 +48,7 @@ const handleScriptLoad = () => {
           </span>
 
         <h2 className="text-4xl font-black m-2">
-        we're a team that hopes to {" "} the way people see the internet, even just a little.
+        we&apos;re a team that hopes to {" "} the way people see the internet, even just a little.
           <span className="text-rose-600">change</span>
         </h2>
         <h3 className="text-2xl font-bold m-2">
