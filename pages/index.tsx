@@ -20,6 +20,8 @@ const handleScriptLoad = () => {
           rel="stylesheet"
           type="text/css"
         />
+	 <meta name="description" content="we are a team that hope to change how people see the web." />
+        <meta name="author" content="fractal team" />
         <link
           href="https://cdn.tailwindcss.com/latest.min.css"
           rel="stylesheet"
