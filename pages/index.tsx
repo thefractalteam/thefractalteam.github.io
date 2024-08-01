@@ -64,7 +64,7 @@ const handleScriptLoad = () => {
          
         </h2>
         <h3 className="text-2xl font-bold m-2">
-       check out our projects, <Link href="nine.frctl.lol" className="font-bold text-rose-600 underline">Nine</Link>, Litty, <Link href="eclipse.frctl.lol" className="font-bold text-rose-600 underline">Eclipse</Link>, and <Link href="schlatt.frctl.lol" className="font-bold text-rose-600 underline">Schluttlash</Link>!
+       check out our projects, <Link href="https://nine.frctl.lol" className="font-bold text-rose-600 underline">Nine</Link>, Litty, <Link href="https://eclipse.frctl.lol" className="font-bold text-rose-600 underline">Eclipse</Link>, and <Link href="https://schlatt.frctl.lol" className="font-bold text-rose-600 underline">Schluttlash</Link>!
         </h3>
 
        
