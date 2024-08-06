@@ -51,7 +51,7 @@ const handleScriptLoad = () => {
       strokeWidth="2"
       d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
   </svg>
-  <span>our site is under construction, this design may look a little familiar, but will change soon.</span>
+  <span>Fractal is under construction.</span>
 </div>
  
           <span className="text-6xl font-black m-2 flex items-center">
@@ -63,9 +63,7 @@ const handleScriptLoad = () => {
         we&apos;re a team that hopes to <span className="text-rose-600">change</span> the way people see the internet, even just a little.
          
         </h2>
-        <h3 className="text-2xl font-bold m-2">
-       check out our projects, <Link href="https://nine.frctl.lol" className="font-bold text-rose-600 underline">Nine</Link>, Litty, <Link href="https://eclipse.frctl.lol" className="font-bold text-rose-600 underline">Eclipse</Link>, and <Link href="https://schlatt.frctl.lol" className="font-bold text-rose-600 underline">Schluttlash</Link>!
-        </h3>
+   
 
        
       </main>
