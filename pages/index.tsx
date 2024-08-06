@@ -64,7 +64,34 @@ const handleScriptLoad = () => {
          
         </h2>
    
-
+        <footer className="footer bg-base-200 text-base-content p-10">
+  <aside>
+  <h2 className="text-2xl" style={{
+        fontFamily: "'IBMPlexSans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+        fontStyle: 'italic',
+        fontWeight: 'bold'
+      }}>fractal</h2>
+    <p>
+     
+    Domain provided by Fractal, site built by <a href="mailto:mark@frctl.lol" className="link link-hover">Mark/Poprock.</a>
+    </p>
+  </aside>
+  <nav>
+    <h6 className="footer-title">Apps</h6>
+    <a href="https://nine.frctl.lol" className="link link-hover">Nine</a>
+    <a href="https://eclipse.frctl.lol" className="link link-hover">Eclipse</a>
+    <a href="https://schlatt.frctl.lol" className="link link-hover">Schluttlash</a>
+    <a href="https://misc.frctl.lol" className="link link-hover">FractalHosted</a>
+  </nav>
+  <nav>
+    <h6 className="footer-title">Email</h6>
+    <a href="mailto:all@frctl.lol" className="link link-hover">All</a>
+    <a href="mailto:mark@frctl.lol" className="link link-hover">Mark (Poprock)</a>
+    <a href="mailto:edward@frctl.lol" className="link link-hover">Darwin (Awesomelord)</a>
+  
+  </nav>
+ 
+</footer>
        
       </main>
     </div>
