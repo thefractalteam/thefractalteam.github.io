@@ -84,10 +84,11 @@ const handleScriptLoad = () => {
     <a href="https://misc.frctl.lol" className="link link-hover">FractalHosted</a>
   </nav>
   <nav>
-    <h6 className="footer-title">Email</h6>
-    <a href="mailto:all@frctl.lol" className="link link-hover">All</a>
-    <a href="mailto:mark@frctl.lol" className="link link-hover">Mark (Poprock)</a>
-    <a href="mailto:edward@frctl.lol" className="link link-hover">Darwin (Awesomelord)</a>
+    <h6 className="footer-title">Contact</h6>
+    <a href="mailto:all@frctl.lol" className="link link-hover">All (Email)</a>
+    <a href="mailto:mark@frctl.lol" className="link link-hover">Mark (Email)</a>
+    <a href="mailto:edward@frctl.lol" className="link link-hover">Darwin (Email)</a>
+    <a href="https://discord.gg/mpgtFcAWaH" className="link link-hover">Join our Discord!</a>
   
   </nav>
  
