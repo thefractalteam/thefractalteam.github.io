@@ -64,7 +64,7 @@ const handleScriptLoad = () => {
          
         </h2>
    
-        <footer className="footer bg-base-200 text-base-content p-10">
+        <footer className="footer bg-base-200 text-base-content p-10 height-full">
   <aside>
   <h2 className="text-2xl" style={{
         fontFamily: "'IBMPlexSans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
