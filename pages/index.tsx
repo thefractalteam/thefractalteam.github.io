@@ -64,7 +64,7 @@ const handleScriptLoad = () => {
          
         </h2>
    
-        <footer className="footer bg-base-200 text-base-content p-10 height-full">
+        <footer className="footer bg-base-200 text-base-content p-10 h-full">
   <aside>
   <h2 className="text-2xl" style={{
         fontFamily: "'IBMPlexSans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
@@ -73,7 +73,7 @@ const handleScriptLoad = () => {
       }}>fractal</h2>
     <p>
      
-    Domain provided by Fractal, site built by <a href="mailto:mark@frctl.lol" className="link link-hover">Mark/Poprock.</a>
+   
     </p>
   </aside>
   <nav>
